@@ -10,6 +10,7 @@
     <?php require "blocks/header.php" ?>
 
     <main>
+        <h1>Main page</h1>
         <?php 
             require_once "lib/mysql.php";
             
