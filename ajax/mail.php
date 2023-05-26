@@ -13,7 +13,7 @@
     else if(strlen($title) <= 3)
         $error = 'Insert title';
     else if(strlen($mess) <= 15)
-        $error = 'Insert message';
+        $error = 'To less or no message in field';
 
     if($error != '') {
         echo $error;
