@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 http://localhost/itproger/error.php
+ErrorDocument 500 http://localhost/itproger/error500.php
+
+RewriteEngine On
+RewriteRule ^index?$ index.php [NC,L]
+RewriteRule ^login?$ login.php [NC,L]
+RewriteRule ^register?$ register.php [NC,L]
+RewriteRule ^add-article?$ add-article.php [NC,L]
+RewriteRule ^post?$ post.php [NC,L]
+RewriteRule ^contacts?$ contacts.php [NC,L]
