@@ -11,7 +11,7 @@
     else if(strlen($email) <= 5)
         $error = 'Insert email';
     else if(strlen($title) <= 3)
-        $error = 'Insert title';
+        $error = 'To less or no message in field Title';
     else if(strlen($mess) <= 15)
         $error = 'To less or no message in field';
 
